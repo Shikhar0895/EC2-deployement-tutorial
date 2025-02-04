@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Heebo, Poppins, Roboto } from "next/font/google";
+import { Poppins, Roboto } from "next/font/google";
 import "./globals.css";
 import cn from "@/lib/utils";
 import HeroBlur from "@/components/ui/HeroBlur";
