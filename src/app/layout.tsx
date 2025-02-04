@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Heebo, Poppins, Roboto } from "next/font/google";
 import "./globals.css";
 import cn from "@/lib/utils";
-import HeroBlur from "@/components/ui/HeroBlur";
+
 
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
@@ -25,11 +25,7 @@ const roboto = Roboto({
   variable: "--font-roboto",
 });
 
-const heebo = Heebo({
-  weight: ["900", "500", "200"],
-  subsets: ["hebrew"],
-  variable: "--font-heebo",
-});
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
